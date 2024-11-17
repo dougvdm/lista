@@ -9,7 +9,7 @@ import encadeada.ListaLigada;
 public class Main{
     public static void main(String[] args){
         ListaLigada lista = new ListaLigada();
-        String path = "C:\\Users\\dougl\\OneDrive\\Desktop\\java\\lista\\src\\arquivo2.txt";
+        String path = "C:\\Users\\dougl\\OneDrive\\Desktop\\java\\lista\\src\\arq-novo.txt";
         
         try {
             //lendo o arquivo

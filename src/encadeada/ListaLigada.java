@@ -8,13 +8,16 @@ public class ListaLigada{
         cabeca = null;
     }
 
-    // metodo para imprimir a lista inteira
-    public void print(){
-        No n = cabeca;
-        while(n != null){
-            System.out.println(n.getValor());
-            n = n.getProximo();
+     public void print() {
+        No n = cabeca; 
+        while (n != null) {
+            System.out.print(n.getValor()); 
+            if (n.getProximo() != null) {  
+                System.out.print(", ");  
+            }
+            n = n.getProximo(); 
         }
+        System.out.println(); 
     }
 
     // metodo para adicionar os Nos no fim da lista
